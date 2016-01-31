@@ -1,9 +1,11 @@
+---
+output: pdf_document
+---
 
 a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. 
 
 ==================================================================
 Human Activity Recognition Using Smartphones Dataset
-Version 1.0
 ==================================================================
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
