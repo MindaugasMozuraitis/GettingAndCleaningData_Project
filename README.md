@@ -1,7 +1,7 @@
 # GettingAndCleaningData_Project
-This repository contains R script, code book and datasets required for the Getting and Cleaning Data course project.
+This repository contains R script and code book required for the Getting and Cleaning Data course project.
 
-# run_analysis.R 
+# Syntax in run_analysis.R 
 * loads the required R packages 
 * downloads the original datasets on a dektop, if the data folder does not yet exist
 * merges the training and the test sets to create one data set
@@ -13,7 +13,7 @@ This repository contains R script, code book and datasets required for the Getti
 * saves all the new .csv files in the original data folder
 
 # CodeBook.md
-* describes the variables, the data, and any other work that was performed to clean up the data
+* describes the data and the variables 
 
 
 
