@@ -29,39 +29,39 @@ For each record in the new tidy dataset (full_tidy_data.csv) it is provided:
 * An identifier of the subject who carried out the experiment
 * Activity label
 * Mean and standard deviation (std) for each of the following signals: 
-    +tBodyAcc_X 
-    +tBodyAcc_Y
-    +tBodyAcc_Z
-    +tGravityAcc_X
-    +tGravityAcc_Y
-    +tGravityAcc_Z
-    +tBodyAccJerk_X
-    +tBodyAccJerk_Y
-    +tBodyAccJerk_Z
-    +tBodyGyro_X
-    +tBodyGyro_Y
-    +tBodyGyro_Z
-    +tBodyGyroJerk_X
-    +tBodyGyroJerk_Y
-    +tBodyGyroJerk_Z
-    +tBodyAccMag
-    +tGravityAccMag
-    +tBodyAccJerkMag
-    +tBodyGyroMag
-    +tBodyGyroJerkMag
-    +fBodyAcc_X
-    +fBodyAcc_Y
-    +fBodyAcc_Z
-    +fBodyAccJerk_X
-    +fBodyAccJerk_Y
-    +fBodyAccJerk_Z
-    +fBodyGyro_X
-    +fBodyGyro_Y
-    +fBodyGyro_Z
-    +fBodyAccMag
-    +fBodyAccJerkMag
-    +fBodyGyroMag
-    +fBodyGyroJerkMag
+    + tBodyAcc_X 
+    + tBodyAcc_Y
+    + tBodyAcc_Z
+    + tGravityAcc_X
+    + tGravityAcc_Y
+    + tGravityAcc_Z
+    + tBodyAccJerk_X
+    + tBodyAccJerk_Y
+    + tBodyAccJerk_Z
+    + tBodyGyro_X
+    + tBodyGyro_Y
+    + tBodyGyro_Z
+    + tBodyGyroJerk_X
+    + tBodyGyroJerk_Y
+    + tBodyGyroJerk_Z
+    + tBodyAccMag
+    + tGravityAccMag
+    + tBodyAccJerkMag
+    + tBodyGyroMag
+    + tBodyGyroJerkMag
+    + fBodyAcc_X
+    + fBodyAcc_Y
+    + fBodyAcc_Z
+    + fBodyAccJerk_X
+    + fBodyAccJerk_Y
+    + fBodyAccJerk_Z
+    + fBodyGyro_X
+    + fBodyGyro_Y
+    + fBodyGyro_Z
+    + fBodyAccMag
+    + fBodyAccJerkMag
+    + fBodyGyroMag
+    + fBodyGyroJerkMag
 
 Notes: 
 ======
