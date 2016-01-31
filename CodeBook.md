@@ -1,6 +1,6 @@
-Data Source 
+# Data Source 
 ==================================================================
-# Human Activity Recognition Using Smartphones Dataset
+## Human Activity Recognition Using Smartphones Dataset
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 DITEN - Universit‡ degli Studi di Genova.
@@ -8,7 +8,7 @@ Via Opera Pia 11A, I-16145, Genoa, Italy.
 activityrecognition@smartlab.ws
 www.smartlab.ws
 
-Data Collection
+## Data Collection
 ==================================================================
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, Reyes-Ortiz et al. captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. 
 
@@ -20,9 +20,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 These signals were used to estimate variables of the feature vector for each pattern: 'X', 'Y', and 'Z' in the variable names are used to denote 3-axial signals in the X, Y and Z directions.
 
-## New Tidy Dataset Description
-
-For each record in the new tidy dataset (full_tidy_data.csv) it is provided:
+# New Tidy Dataset Description
+## For each record in the new tidy dataset it is provided:
 ======================================
 * An identifier of the subject who carried out the experiment
 * Activity label
@@ -61,11 +60,11 @@ For each record in the new tidy dataset (full_tidy_data.csv) it is provided:
     + fBodyGyroMag
     + fBodyGyroJerkMag
 
-Notes: 
+## Notes: 
 ======
 - Scores are normalized and bounded within [-1,1].
 
-License:
+## License:
 ========
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
 

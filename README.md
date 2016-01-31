@@ -8,8 +8,8 @@ This repository contains R script and code book required for the Getting and Cle
 * extracts only the measurements on the mean and standard deviation for each measurement
 * adds descriptive activity names to name the activities in the data set
 * appropriately labels the data set with descriptive variable names.
-* creates a new tidy dataset "full_tidy_data.csv" (attached)
-* from the new tidy dataset, creates a second, independent tidy data set with the average of each variable for each activity and each subject "aggregated_tidy_data.csv".
+* creates a new tidy dataset "full_tidy_data.txt"
+* from the new tidy dataset, creates a second, independent tidy data set with the average of each variable for each activity and each subject "aggregated_tidy_data.txt".
 * saves all the new .csv files in the original data folder
 
 # CodeBook.md
