@@ -48,10 +48,10 @@ full_data_subs = rbind(train_data_subs, test_data_subs)
 # Adding subject ids and activity labels to the full dataset
 full_tidy_data = mutate(full_data_means_stds, SubjectId = full_data_subs[,1],
                               Activity = full_data_act_labels[,2])
-write.table(full_tidy_data,"~/Desktop/UCI HAR Dataset/full_tidy_data.csv", sep=",",row.names=F)
+write.table(full_tidy_data,"~/Desktop/UCI HAR Dataset/full_tidy_data.txt", sep="\t",row.names=F)
 
 # Creating a new independent tidy data set with the average of each variable for each activity and each subject.
 grouped_data = group_by(full_tidy_data, SubjectId, Activity)
 aggr_data = summarise_each(grouped_data, funs(mean))
-write.table(aggr_full_data,"~/Desktop/UCI HAR Dataset/aggregated_tidy_data.csv", sep=",",row.names=F)
+write.table(aggr_full_data,"~/Desktop/UCI HAR Dataset/aggregated_tidy_data.txt", sep="\t",row.names=F)
 
